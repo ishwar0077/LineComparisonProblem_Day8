@@ -6,6 +6,9 @@ namespace LineComparisonProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
+            LineLengthCalculate line = new LineLengthCalculate();
+            line.LineLength();
+
             
 
         }
